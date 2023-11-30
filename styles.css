@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: #e5e1d6;
+    box-shadow: 1px 3px 3px rgb(85, 82, 82);
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+body {
+    background: url('background.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-sect {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-sect .banner {
+    color: black;
+    padding-left: 80px;
+}
+
+.main-sect .banner h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-sect .banner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1px;
+    max-width: 600px;
+}
+
+.main-sect .banner button {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.main-sect .banner button:hover {
+    color: black;
+    background: white;
+}
+
+.navbar .logo {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: black;
+}
+
+.navbar .logo span {
+    color: brown;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 50px;
+    margin-right: 45px;
+}
+
+.navbar .nav-menu a:hover {
+    color: brown;
+}
+
+footer {
+    background: #ddd0ac;
+    text-align: center;
+    padding: 50px;
+}
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu .box-container .box {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menu .box-container #menu-1:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 10px black;
+}
+
+.menu .box-container #menu-2:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 10px black;
+}
+
+.menu .box-container #menu-3:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 10px black;
+}
+
+.menu .box-container #menu-4:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 10px black;
+}
+
+.menu .box-container .box img{
+    width: 15rem;
+}
+
+#menu {
+    min-height: 100vh;
+    background: #e5e1d6;
+}
+
+#menu .heading h2{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+#menu-1, #menu-2, #menu-3, #menu-4, #menu-5, #menu-6 {
+    background: #9f876f;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#menu-btn {
+    color: black;
+    display: none;
+    cursor: pointer;
+}
+
+#close-btn {
+    position: absolute;
+    display: none;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#about {
+    min-height: 100vh;
+    background: #e5e1d6;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.content .aboutE h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+.content .aboutE p {
+    font-size: 18px;
+}
+
+.content .story h4{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.content .story p {
+    font-size: 18px;
+}
+
+.content .emberexp h4 {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.content .emberexp p {
+    font-size: 18px;
+}
+
+.content .craft h4 {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.content .craft p {
+    font-size: 18px;
+}
+
+.content .beyond h4{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.content .beyond p {
+    font-size: 18px;
+}
+
+.content .join h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.content .join p {
+    font-size: 18px;
+}
+
+#events {
+    min-height: 100vh;
+    background: #e5e1d6;
+}
+
+.events {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.events .event h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.events .event p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.events .event img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.event img:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 10px black;
+}
+
+@media screen and (max-width: 900px) {
+    #menu-btn, #close-btn {
+        display: block;
+    }
+    .navbar .nav-menu {
+        position: fixed;
+        left: -260px;
+        top: 0;
+        flex-direction: column;
+        width: 260px;
+        height: 100vh;
+        background: white;
+        padding: 70px 40px 0;
+    }
+
+    .navbar a {
+        color: white;
+    }
+}
